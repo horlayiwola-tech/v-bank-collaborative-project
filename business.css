@@ -63,7 +63,6 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f8f8;
     color: #1a1a1a;
-    padding: 40px;
   }
   
   .container {
@@ -71,11 +70,15 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    margin-top: 50px;
   }
   
   .left-content {
     flex: 1;
     max-width: 500px;
+    padding: 40px;
+    margin-top: 200px;
+    margin-left: 70px;
   }
   
   .left-content h1 {
