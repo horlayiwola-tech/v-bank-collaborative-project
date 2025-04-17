@@ -82,17 +82,22 @@ padding-left: 120px;
 
 .link button{
     height: 30px;
-    width: 100px;
-    padding-top: 50px;
+    width: 150px; */
+    padding-top: 100px;
     background-color: #E31B54;
-    text-decoration-color: white;
+    color: white;
     border-radius: 6px;
-    border: none;
+    border: none; 
+    margin-bottom: 100px;
+    margin-top: 80px;
 
 }
 
 .cover {
     justify-items: center;
+}
+.class {
+    font
 }
  
 
