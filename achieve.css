@@ -34,7 +34,7 @@
 }
 a{
     text-decoration: none;
-    color: #333333;
+    color: #ad3030;
 }
 .support-btn button a{
     color: #FFFFFF;
@@ -81,24 +81,97 @@ padding-left: 120px;
 }
 
 .link button{
-    height: 30px;
-    width: 150px; */
+    height: 50px;
+    width: 180px; */
     padding-top: 100px;
     background-color: #E31B54;
-    color: white;
+    color: #FFFFFF;
     border-radius: 6px;
     border: none; 
     margin-bottom: 100px;
     margin-top: 80px;
+    font-size: 18px;
+    font-weight: 200px;
 
 }
 
-.cover {
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
     justify-items: center;
 }
-.class {
-    font
+.background {
+width: 1100px;
+display: block;
+justify-content: center;
 }
+
+.name {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 2px 12px;
+    border: none;
+    z-index: 2;
+}
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    margin-top: none;
+    gap: none;
+    padding: none;
+    background-color: #111;
+    width: 100%;
+    max-width: 1099px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 128px;
+  }
+
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 180px;
+    border-radius: none;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #E31B54;
+  }
+
+
+  .carousel-item img {
+    width: 50%;
+    height: 50px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 10px;
+       
+}
+  .carousel-item p{
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    flex: auto;
+
+  }
+  .carousel 2{
+    background image: none;
+    padding: ;
+    cursor: pointer;
+  }
+  .carousel image{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .carousel 2 p{
+    color: white;
+
  
 
 
