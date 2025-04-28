@@ -34,7 +34,7 @@
 }
 a{
     text-decoration: none;
-    color: #ad3030;
+    color:black;
 }
 .support-btn button a{
     color: #FFFFFF;
@@ -85,7 +85,7 @@ padding-left: 120px;
     width: 180px; */
     padding-top: 100px;
     background-color: #E31B54;
-    color: #FFFFFF;
+    color: white;
     border-radius: 6px;
     border: none; 
     margin-bottom: 100px;
@@ -93,6 +93,9 @@ padding-left: 120px;
     font-size: 18px;
     font-weight: 200px;
 
+}
+.link button a{
+    color: white;
 }
 
 .video-container {
@@ -134,43 +137,78 @@ justify-content: center;
   }
 
   .carousel-item {
-    flex: 0 0 auto;
-    width: 180px;
+    display: flex;
+    width: 250px;
+    height: 100px;
     border-radius: none;
     overflow: hidden;
     cursor: pointer;
     background-color: #E31B54;
+    z-index: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
 
   .carousel-item img {
-    width: 50%;
-    height: 50px;
+    width: 30%;
+    height: 60px;
     object-fit: cover;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
        
 }
   .carousel-item p{
     color: white;
     padding: 8px;
-    font-size: 14px;
+    font-size: 16px;
     flex: auto;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
 
   }
-  .carousel 2{
+  .woman{
     background image: none;
-    padding: ;
+    padding left: 100px;
     cursor: pointer;
+    display: flex;
+
   }
-  .carousel image{
-    height: 50px;
-    width: 50px;
-    padding: 10px;
-    margin-top: 10px;
+  .woman img{
+    height: 60px;
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
   }
-  .carousel 2 p{
+  .woman p{
     color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+
+  .carousel 3 img{
+    padding right: 20px;
+
+  }
+
+  .globe img {
+    width: 900px;
+    height: 700px;
+    justify-items: center;
+    align-items: center;
+    padding-left: 200px;
+    margin-top: 100px;
+
+  }
+  .achieve{
+    font-size: 50px;
+
+  }
+
+
 
  
 
