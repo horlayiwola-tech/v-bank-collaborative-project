@@ -1,0 +1,543 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-bar img{
+    height: 50px;
+    width: 140px;
+    margin: 30px 50px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+    box-shadow: #333333;
+    margin-inline: 0px 70px 0px 70px;
+    margin-top: 0;
+}
+.nav-bar {
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    position: fixed;
+    width: 100%;
+  }
+  
+.nav-bar a{
+    text-decoration: none;   
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+.support-btn button a{
+    color: #FFFFFF;
+}
+.section{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-left: 20px;
+}
+.support-btn button{
+    color: #FFFFFF;
+    background-color: #E31B54;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+ .screen{
+    width: 650px;
+    height: 550px;
+} 
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    background: #f4f9ff;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .label {
+    background-color: #001a3d;
+    color: white;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 12px;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+  
+  .left-section h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .download-btn img{
+   
+    width: 270px;
+    height: 50px;
+  }
+  
+  .icons {
+    margin-left: 12px;
+    font-size: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    width: 800px;
+    height: 200px;
+    padding-right: 120px;
+  }
+  
+  .right-section img {
+    max-width: 100%;
+    height: auto;
+  } 
+  .container.reverse {
+    margin-top: 50px;
+  }
+  
+  .image-section img {
+    max-width: 80%;
+    height: auto;
+    padding-left: 30px;
+  }
+  
+  .text-section {
+    padding: 60px 40px;
+  }
+  
+  .text-section h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  .features-section {
+    width: 90%;
+    height: 300px;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  .banking-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f4f7;
+    padding: 60px 40px;
+    border-radius: 50px;
+    margin: 40px 20px;
+    margin-top: 200px;
+  }
+  
+  .banking-text {
+    flex: 1;
+    padding-right: 40px;
+    margin-top: 100px;
+  }
+  
+  .banking-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .banking-text p {
+    color: #445;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .banking-text h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .account-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .pill {
+    padding: 10px 16px;
+    background: #e5e7eb;
+    color: #333;
+    font-weight: 600;
+    border-radius: 9999px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  .banking-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+  .banking-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 150px;
+  }
+  .whatsapp-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    border-radius: 30px;
+    margin: 40px 0;
+    margin-top: 70px;
+    background-color: #f2f4f7;
+  }
+  
+  .whatsapp-text {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 40px;
+  }
+  
+  .tag {
+    background-color: #0d1b2a;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 9999px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .whatsapp-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .whatsapp-text p {
+    font-size: 16px;
+    color: #445;
+    margin-bottom: 30px;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-btn img {
+    width: 180px;
+  }
+  
+  .whatsapp-image {
+    flex: 1;
+    text-align: center;
+    width: 400px;
+  }
+  
+  .whatsapp-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    width: 400px;
+  }
+  .ussd-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f7fb;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .ussd-text {
+    max-width: 50%;
+  }
+  
+  .ussd-label {
+    background-color: #1a1f36;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .ussd-text h1 {
+    font-size: 36px;
+    color: #1a1f36;
+    margin: 0;
+  }
+  
+  .ussd-text p {
+    font-size: 16px;
+    color: #5c5f6b;
+    margin: 15px 0;
+  }
+  
+  .ussd-text img {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 160px;
+  }
+  
+  .ussd-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .savings-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .savings-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0c162d;
+    margin-bottom: 20px;
+  }  
+  .savings-section p {
+    font-size: 16px;
+    color: #5c5f6b;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+  }
+  
+  .savings-button {
+    background-color: #e50058;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .savings-button:hover {
+    background-color: #cc004f;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin: 0;
+  }
+  
+  .savings-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .savings-card {
+    background-color: #f2f4f8;
+    border-radius: 16px;
+    padding: 40px 30px;
+    text-align: center;
+    width: 320px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  }
+  
+  .savings-card img {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .savings-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .savings-card p {
+    font-size: 15px;
+    color: #333;
+    /* line-height: 1.6; */
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    text-decoration: none;
+    color: #d1003f;
+    font-weight: bold;
+  }
+  
+  .savings-card:hover {
+    background-color: #ffe0ed;
+    /* transform: translateY(-5px); */
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin: 0;
+  }
+  
+  .savings-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .savings-card {
+    background-color: #f2f4f8;
+    border-radius: 16px;
+    padding: 40px 30px;
+    text-align: center;
+    width: 320px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  }
+  
+  .savings-card img {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .savings-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .savings-card p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    text-decoration: none;
+    color: #d1003f;
+    font-weight: bold;
+  }
+  
+  .savings-card:hover {
+    background-color: #ffe0ed;
+    transform: translateY(-5px);
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f0f2f6;
+  }
+  
+  .app-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #e8ecf3;
+    flex-wrap: wrap;
+  }
+  
+  .app-text {
+    max-width: 500px;
+  }
+  
+  .app-text h1 {
+    font-size: 36px;
+    color: #0b132a;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .app-text p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .download-button {
+    background-color: #d1003f;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button img {
+    width: 190px;
+    height: 30px;
+  }
+  
+  .download-button:hover {
+    background-color: #ff4f87;
+  }
+  
+  .app-image img {
+    width: 320px;
+    max-width: 100%;
+  }
+   
+  
