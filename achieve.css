@@ -4,7 +4,10 @@
     font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
       
-
+.section-navbar{
+  display: flex;
+  gap: 20px;
+}
 .nav-bar img{
     height: 50px;
     width: 140px;
@@ -163,6 +166,8 @@ padding-left: 120px;
   height: 80px;
   margin-top: none;
   margin-bottom: 5px;
+  overflow: hidden;
+  cursor: pointer;
 
 }
 
@@ -218,31 +223,50 @@ padding-left: 120px;
   text-overflow: ellipsis;
   color: #FFFFFF;
 }
-
-
-
-
-  .globe img {
-    width: 900px;
+.woman:hover{
+  background-color: #FF1C2740;
+}
+.woman:active{
+  background-color: #E31B54;
+}
+.globe{
+  background-color:rgba(128, 128, 128, 0.041);
+  position: relative;
+  margin-top: 1080;
+  height: 500px;
+}
+  .active img {
+    width: 800px;
     height: 700px;
     justify-items: center;
     align-items: center;
     padding-left: 200px;
-    margin-top: 100px;
-
+    margin-top: 200px;
+    
   }
   .achieve{
-    font-size: 50px;
+    font-size: 40px;
+    padding-left: 200px;
 
   }
+  .acronym{
+    font-size: 17px;
+    font-weight: lighter;
+    color: black;
+    padding-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .pattern{
+    margin-top: 200px;
+    padding-left: 600px;
+    width: 5px;
+    height: 10px;
+  }
+
   .finance{
     padding: auto;
   }
-  
-
-
-
-
- 
-
-
+  @media only screen and(max-width:600px)
